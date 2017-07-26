@@ -1,23 +1,17 @@
 {
-  "name": "starwars_heroku",
+  "name": "starwars-express",
   "version": "1.0.0",
-  "description": "Helps find the starwars characters you are looking for",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jacobkato49/starwars_heroku.git"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jacobkato49/starwars_heroku/issues"
-  },
-  "homepage": "https://github.com/jacobkato49/starwars_heroku#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3"
-  }
+  "license": "ISC"
 }
